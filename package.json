@@ -1,0 +1,29 @@
+{
+  "name": "graphene-marionette-runner",
+  "license": "MPL",
+  "version": "0.0.1",
+  "author": {
+    "name": "Kevin Grandon",
+    "email": "kevingrandon@yahoo.com"
+  },
+  "dependencies": {
+    "debug": "2.2.0",
+    "promise": "7.0.1",
+    "mozilla-runner": "0.5.0"
+  },
+  "devDependencies": {
+    "chai": "2.3.0",
+    "empty-port": "0.0.1",
+    "marionette-js-runner": "1.0.15",
+    "mocha": "2.2.4",
+    "mozilla-download": "1.0.5",
+    "node-static": "0.7.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KevinGrandon/graphene-marionette-runner.git"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
