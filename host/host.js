@@ -28,6 +28,16 @@ Host.createSession = function(host, profile, options) {
   options = options || {};
   var target = options.runtime || this.runtime || 'firefox';
   options.profile = profile;
+
+  options.argv = options.argv || [];
+  if (options.start_manifest) {
+    options.argv.push('--start-manifest=' + options.start_manifest);
+  }
+
+  if (process.env.JSCONSOLE) {
+    options.argv.push('-jsconsole');
+  }
+
   debug('Will run', target, options);
   return run(target, options).then(function(child) {
     // Firefox explodes if you don't wait a bit before trying to interact

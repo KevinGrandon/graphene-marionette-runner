@@ -9,7 +9,10 @@ exports.help = {
   arguments: {
     '--runtime': {
       help: 'path to find graphene'
-    }
+    },
+    '--start-manifest': {
+      help: 'start manifest url'
+    },
   }
 };
 
