@@ -14,6 +14,7 @@
     "marionette-mocha": "./bin/marionette-mocha",
     "apply-manifest": "./bin/apply-manifest"
   },
+  "main": "index.js",
   "dependencies": {
     "argparse": "^0.1.15",
     "array-difference": "0.0.1",
