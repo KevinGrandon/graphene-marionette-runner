@@ -54,7 +54,7 @@ parser.addArgument(['--host'], {
 parser.addArgument(['--reporter'], {
   type: requireReporter,
   help: 'Mocha reporter to use',
-  defaultValue: 'dot'
+  defaultValue: 'spec'
 });
 
 parser.addArgument(['--verbose'], {
