@@ -40,6 +40,6 @@
     "yargs": "^1.3.2"
   },
   "peerDependencies": {
-    "marionette-client": "1.8.x"
+    "marionette-client": "^1.8.1"
   }
 }
