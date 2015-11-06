@@ -1,6 +1,6 @@
 {
   "name": "graphene-marionette-runner",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "author": {
     "name": "The Graphene Team"
   },
@@ -40,6 +40,6 @@
     "yargs": "^1.3.2"
   },
   "peerDependencies": {
-    "graphene-marionette-client": "^1.0.0"
+    "graphene-marionette-client": "^1.0.1"
   }
 }
